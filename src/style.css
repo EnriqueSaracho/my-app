@@ -1,0 +1,28 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+}
+
+.header {
+    background-color: #21222A;
+    display: flex;
+    align-items: center;
+    padding: 30px 25px;
+    height: 90px;
+}
+
+.logo {
+    color: #00D8FF;
+    font-family: "inter";
+    font-weight: bold;
+    display: flex;
+    margin-right: auto;
+}
+
+.extra-title {
+    color: #DEEBF8;
+    font-family: "inter";
+}
