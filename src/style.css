@@ -4,10 +4,10 @@
 
 body {
   margin: 0;
-  font-family: "inter";
+  font-family: "inter", sans-serif;
 }
 
-.navbar {
+.nav {
   background-color: #21222a;
   display: flex;
   align-items: center;
@@ -15,22 +15,18 @@ body {
   height: 90px;
 }
 
-.logo {
-  display: flex;
-  align-items: center;
-  margin-right: auto;
-}
-.react-logo {
+.nav--logo {
   height: 29px;
   width: 29px;
   margin-right: 7px;
 }
-.logo > h2 {
+.nav--logo-text {
   font-weight: 700;
   color: #61dafb;
+  margin-right: auto;
 }
 
-.extra-title {
+.nav--extra-text {
   color: #deebf8;
-  font-family: "inter";
+  font-weight: 600;
 }
