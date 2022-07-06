@@ -1,28 +1,36 @@
 * {
-    box-sizing: border-box;
+  box-sizing: border-box;
 }
 
 body {
-    margin: 0;
+  margin: 0;
+  font-family: "inter";
 }
 
-.header {
-    background-color: #21222A;
-    display: flex;
-    align-items: center;
-    padding: 30px 25px;
-    height: 90px;
+.navbar {
+  background-color: #21222a;
+  display: flex;
+  align-items: center;
+  padding: 30px 25px;
+  height: 90px;
 }
 
 .logo {
-    color: #00D8FF;
-    font-family: "inter";
-    font-weight: bold;
-    display: flex;
-    margin-right: auto;
+  display: flex;
+  align-items: center;
+  margin-right: auto;
+}
+.react-logo {
+  height: 29px;
+  width: 29px;
+  margin-right: 7px;
+}
+.logo > h2 {
+  font-weight: 700;
+  color: #61dafb;
 }
 
 .extra-title {
-    color: #DEEBF8;
-    font-family: "inter";
+  color: #deebf8;
+  font-family: "inter";
 }
