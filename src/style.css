@@ -5,6 +5,7 @@
 body {
   margin: 0;
   font-family: "inter", sans-serif;
+  background-color: #282d35;
 }
 
 .nav {
@@ -29,4 +30,24 @@ body {
 .nav--extra-text {
   color: #deebf8;
   font-weight: 600;
+}
+
+.main--title {
+  margin-top: 57px;
+  margin-left: 27px;
+  font-weight: 700;
+  color: #ffffff;
+  font-size: 39px;
+  letter-spacing: -0.05em;
+}
+
+.main--list {
+  margin-top: 46px;
+  margin-left: 51px;
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 16px;
+}
+.main--list > li {
+  margin-bottom: 19px;
 }
