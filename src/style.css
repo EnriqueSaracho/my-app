@@ -32,6 +32,12 @@ body {
   font-weight: 600;
 }
 
+.main {
+  background-image: url(./images/react-icon-large.png);
+  background-repeat: no-repeat;
+  background-position: right center;
+}
+
 .main--title {
   margin-top: 57px;
   margin-left: 27px;
@@ -49,5 +55,9 @@ body {
   font-size: 16px;
 }
 .main--list > li {
-  margin-bottom: 19px;
+  margin-bottom: 8px;
+}
+::marker {
+  color: #61DAFB;
+  font-size: 1.4rem;
 }
