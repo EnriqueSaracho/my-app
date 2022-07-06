@@ -4,7 +4,7 @@ export default function Navbar() {
     return (
         <nav className="header">
             <div className="logo">
-                <img src=""/>
+                
                 <h2>ReactFacts</h2>
             </div>
             <h3 className="extra-title">React Course - Project 1</h3>
