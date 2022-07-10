@@ -35,7 +35,7 @@ body {
 .main {
   background-image: url(./images/react-icon-large.png);
   background-repeat: no-repeat;
-  background-position: right center;
+  background-position: right 75%;
 }
 
 .main--title {
@@ -58,6 +58,6 @@ body {
   margin-bottom: 8px;
 }
 ::marker {
-  color: #61DAFB;
+  color: #61dafb;
   font-size: 1.4rem;
 }
